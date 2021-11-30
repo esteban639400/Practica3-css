@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@font-face {
+    
+    font-family: YuseiMagic;
+    src: url(fuentes/YuseiMagic-Regular.ttf);
+    font-family: PottaOne;
+    src: url(fuentes/PottaOne-Regular.ttf);
+    
+}
+header{
+    background-color: blue;
+    color: yellow;
+    font-family: PottaOne;
+    text-align: center;
+    width: 75%;
+}
+section#uno p{
+    box-sizing:content-box;
+    display:inline-block;
+}
+
+
+section#uno p#uno{
+    background-color: cadetblue;
+    color: white;
+    width: 25%;
+  
+    font-size: 85%;
+    
+}
+section#uno p#dos{
+    width: 74%;
+    line-height: 200%;
+    position: absolute;
+    top: 85px;
+    font-size: 100%;
+}
+mark{
+    background-color: black;
+    color: yellow;
+}
+section#uno hr{
+
+    box-sizing:content-box;
+    display:inline-block;
+    width: 50%;
+    position: relative;
+    top: 8px;
+    left: 10%;
+}
+hr.con{
+    box-sizing: content-box;
+    display: inline-block;
+    color: blue;
+    background-color: blue;
+    height: 15px;
+    width: 75%;
+    position: relative;
+    
+}
+section#dos{
+    box-sizing: content-box;
+    position: relative;
+    bottom: 20px;
+}
+
+section#dos p{
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 150%;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    bottom: 38px;
+}
+
+
+section#dos hr.sin{
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    bottom: 70px;
+}
+section#tres{
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    font-family: YuseiMagic;
+    font-weight: bold;
+    font-size: 110%;
+}
+section#tres p{
+    position: relative;
+    bottom: 25px;
+}
